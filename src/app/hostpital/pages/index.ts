@@ -1,0 +1,1 @@
+export { HospitalAdministrationPageComponent } from './hospital-administration-page/hospital-administration-page.component';
