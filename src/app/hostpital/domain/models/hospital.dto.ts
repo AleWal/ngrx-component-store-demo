@@ -1,4 +1,4 @@
-export interface HostpitalDto {
+export interface HospitalDto {
     number: number;
     name: string;
     type: HostpitalType;

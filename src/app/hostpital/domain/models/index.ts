@@ -1,1 +1,1 @@
-export { HostpitalDto, HostpitalType } from './hospital.dto';
+export { HospitalDto as HostpitalDto, HostpitalType } from './hospital.dto';

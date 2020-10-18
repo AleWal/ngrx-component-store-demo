@@ -1,1 +1,4 @@
-<p>hospital-list-feature works!</p>
+<span class="blinking" *ngIf="isPending$ | async">loading...</span>
+<li *ngFor="let hospital of (hospitals$ | async)">
+    {{ hospital.name }}
+</li>
